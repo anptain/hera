@@ -10,8 +10,19 @@
 		<version>0.0.1</version>
 	</parent>
 
-
 	<dependencies>
+		<dependency>
+			<groupId>com.anptain</groupId>
+			<artifactId>hera-domain</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.anptain</groupId>
+			<artifactId>hera-repository</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
