@@ -22,7 +22,7 @@ public class HomeController extends AbstractController {
 	private UserService userService;
 	
 	@RequestMapping("/")
-	public String index() {
+	public String index(@Valid UserInfo user,BindingResult br) {
 		return "index";
 	}
 

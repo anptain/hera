@@ -81,4 +81,6 @@ public abstract class AbstractEntity extends AbstractPersistable<Long> {
 	public void setLastModifiedDate(Date lastModifiedDate) {
 		this.lastModifiedDate = lastModifiedDate;
 	}
+	
+
 }
