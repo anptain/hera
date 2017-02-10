@@ -5,7 +5,7 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 
 @Entity
-public class SysPropertie extends AbstractEntity {
+public class SysProperty extends AbstractEntity {
 	private static final long serialVersionUID = -5527156169360964308L;
 	private String key;
 	private String value;

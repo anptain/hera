@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.anptain.hera.domain.SysProperty;
 import com.anptain.hera.domain.User;
 import com.anptain.hera.repository.UserRepository;
 
@@ -23,6 +24,10 @@ public class DataInit {
         admin.setPassword(passwordEncoder.encode("admin"));
         admin.setUsername("admin");
         userRepository.save(admin);
-
+        
+        SysProperty staticResourceVersion = new SysProperty();
+        staticResourceVersion.setValue("1.0.0");
+        
+        
     }
 }
