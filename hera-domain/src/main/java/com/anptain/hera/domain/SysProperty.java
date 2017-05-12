@@ -51,4 +51,5 @@ public class SysProperty extends AbstractEntity {
 		/** 启用 */
 		ENABLED
 	}
+	
 }
